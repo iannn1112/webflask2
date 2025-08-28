@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERROR INTERNO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css')}}">
+</head>
+<body>
+
+    <div class="container text-center mt-5">
+        <h1>500 - ERROR EN EL SERVER</h1>
+        <p>hubo un error interno, refresca para volver s internar</p>
+        <a href="{{url_for('home')}}" class="btn btn-primary">Volver al inicio</a>
+    
+</body>
+</html>
