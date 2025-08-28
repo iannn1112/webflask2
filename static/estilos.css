@@ -1,9 +1,14 @@
 body {
-    background-color: rgb(41, 126, 186);
+background-image: url("/static/img/fondo.jpg");
+    background-size: cover;      /* se ajusta al tamaño de pantalla */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* para que se quede fijo al hacer scroll */
+    background-position: center; /* centrado */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     text-align: center;
+
 }
