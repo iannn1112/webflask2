@@ -41,9 +41,9 @@ def page_not_found(e):
 def internal_error(e):
     return render_template('500.html'), 500
 
-@app.route("/faqs")
+@app.route("/faq")
 def faqs():
-    return render_template("faqs.html")
+    return render_template("faq.html")
 
 @app.route("/")
 def index():
