@@ -42,7 +42,7 @@ def internal_error(e):
     return render_template('500.html'), 500
 
 @app.route("/faq")
-def faqs():
+def faq():
     return render_template("faq.html")
 
 @app.route("/")
