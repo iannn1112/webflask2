@@ -45,6 +45,10 @@ def internal_error(e):
 def faq():
     return render_template("faq.html")
 
+@app.route("/contactos")
+def contactos():
+    return render_template("contactos.html")
+
 @app.route("/")
 def index():
     return render_template("home.html")
