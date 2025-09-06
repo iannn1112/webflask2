@@ -10,5 +10,7 @@ background-image: url("/static/img/fondo.jpg");
     flex-direction: column;
     height: 100vh;
     text-align: center;
+    color: darkgoldenrod;
 
 }
+
