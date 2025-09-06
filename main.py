@@ -45,6 +45,10 @@ def internal_error(e):
 def faq():
     return render_template("faq.html")
 
+@app.route("/terminos")
+def terminos():
+    return render_template("terminos.html")
+
 @app.route("/contactos")
 def contactos():
     return render_template("contactos.html")
@@ -89,4 +93,3 @@ def counter():
 if __name__ == "__main__":
     #app.run(debug=True)
     app.run()
-
