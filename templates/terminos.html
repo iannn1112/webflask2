@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css')}}">
+    <title>termino</title>
+</head>
+<body>
+    <p>Usted al leer este contrato aprueba y acepta que tenemos control sobre usted siempre y cuando
+        este en el sitio, no nos encargamos de fallas, robo de datos, clonacion de tarjeta, etc.
+
+        (cualquier cosa no hago nada de eso, porfa no demanda)
+    </p>
+    <hr>
+    <p> se pide discrecion y al salir del sitio NO mencionar siquiera su existencia a menos de haber ayudado o trabajado
+        en el, si trabajó en el, solo hablar de ello con compañeros de trabajo, si llego aqui favor de voltear atras, tiene 10 segundos para huir</p>
+
+    <a href="{{ url_for('index') }}">Volver al inicio</a>
+</body>
+</html>
