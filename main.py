@@ -5,6 +5,8 @@ from forms import TestForm
 app = Flask(__name__)
 app.config.from_object(Config)
 
+visit_count = 0
+
 # app = Flask(__name__)
 # app.secret_key = os.getenv("FLASK_SECRET_pip install flaskKEY")
 
@@ -55,7 +57,9 @@ def contactos():
 
 @app.route("/")
 def index():
-    return render_template("home.html")
+    global visit_count
+    visit_count += 1
+    return render_template("home.html", count=visit_count)
 
 @app.route("/pre_test")
 def pre_test():
