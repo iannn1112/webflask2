@@ -47,6 +47,10 @@ def internal_error(e):
 def faq():
     return render_template("faq.html")
 
+@app.route("/ubicacion")
+def ubicacion():
+    return render_template("ubicacion.html")
+
 @app.route("/terminos")
 def terminos():
     return render_template("terminos.html")
