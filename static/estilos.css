@@ -1,5 +1,4 @@
 body {
-background-image: url("/static/img/fondo.jpg");
     background-size: cover;      /* se ajusta al tamaño de pantalla */
     background-repeat: no-repeat;
     background-attachment: fixed; /* para que se quede fijo al hacer scroll */
@@ -21,6 +20,7 @@ background-image: url("/static/img/fondo.jpg");
 .faq {
     color: black;
 }
+
 
 
 
